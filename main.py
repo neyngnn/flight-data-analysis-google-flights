@@ -152,7 +152,7 @@ def connect_to_database():
     return mysql.connector.connect(
         host="127.0.0.1",
         user="root",
-        password="Ptn.1910",
+        password="" # Dien pass cua MySQL vao day,
         database="all_flights"
     )
 
